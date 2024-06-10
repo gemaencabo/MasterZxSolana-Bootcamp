@@ -1,0 +1,69 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA files
+.idea/
+
+# Visual Studio Code files
+.vscode/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Wallet and sensitive data
+wallet.json
+*.secret
+
+# Compiled output
+dist/
+build/
+
+# Typescript
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+._*
+
+# IDE files
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Mac System files
+*.DS_Store
+._*
+
+# Lock files
+package-lock.json
+yarn.lock
